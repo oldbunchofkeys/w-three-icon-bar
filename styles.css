@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.icon-bar-vertical {
+    background-color: rgb(206, 206, 206);
+    margin: 2rem;
+
+    /* i wanted to make the parent the same width as its children, and this is how stack overflow said to do it, and it works (but i don't know why) */
+    display: inline-block;
+}
+.icon-bar-horizontal {
+    background-color: rgb(206, 206, 206);
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-solid {
+    text-align: center;
+}
+
+.icon {
+    padding: 1rem;
+    text-align: center;
+    width: 90px;
+}
+
+.icon:hover {
+    background-color: rgb(163, 163, 163);
+}
+
+.home {
+    background-color: #75b4f3;
+}
+
+.home:hover {
+    background-color: #5786b4;
+}
